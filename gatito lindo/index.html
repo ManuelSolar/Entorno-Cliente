@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/
+xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Manuel Solar Bueno" />
+    <title>Gatito Lindo</title>
+    <script src="js/gato.js"></script>
+    <script src="js/ventanagato.js"></script>
+    
+</head>
+<body>
+    <noscript>No tienes JavaScript activado en tu navegador.</noscript>
+
+    <h1>Gato</h1>
+
+    <p id="error"></p>
+
+    <div id="creaGato">
+        <p>
+            <label>Nombre del gato </label><input id="nombre" type="text" placeholder="Nombre del gato">
+        </p>
+        <p>
+            <label>Fecha de naciemiento </label><input id="fechaDeNacimiento" type="date" placeholder="Fecha de naciemiento">
+        </p>
+        <p>
+            Raza <select name="raza" id="raza">
+                <option value="Sphynx">Sphynx</option>
+                <option value="Siamés">Siamés</option>
+                <option value="Persa">Persa</option>
+              </select>
+        </p>
+        <p>
+            <label>Peso </label><input id="peso" type="number" placeholder="Peso">
+        </p>
+        <button id="nuevoGato">Nuevo gato</button>
+    </div>  
+</body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Manuel Solar Bueno">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 6.1</title>
+    <script src="js/masterMind.js"></script>
+    <script src="js/game.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <noscript>
+        <p>La página necesita para su funcionamiento el uso de JavaScript.</p>
+    </noscript>
+    <main>
+        <section id="tablero">
+            <div id="divGanar">
+                <h1>¡Has ganado!</h1>
+                <button id="botonNuevaPartida"><span>Reiniciar</span></button>
+            </div>
+        </section>
+
+        <div>
+            <section id="sectionIntentos">
+                <p id="intentos">Intentos: 0</p>
+            </section>
+
+            <section id="listaBolas">
+                <div class="bolas" id="white"></div>
+                <div class="bolas" id="black"></div>
+                <div class="bolas" id="red"></div>
+                <div class="bolas" id="brown"></div>
+                <div class="bolas" id="yellow"></div>
+                <div class="bolas" id="green"></div>
+                <div class="bolas" id="orange"></div>
+                <div class="bolas" id="blue"></div>
+            </section>
+        </div>
+
+    </main>
+
+    <div id="botones">
+        <p>
+            <button id="botonComprobar"><span>Comprobar</span></button>
+            <button id="botonReiniciar"><span>Reiniciar</span></button>
+        </p>
+    </div>
+</body>
+
+</html>

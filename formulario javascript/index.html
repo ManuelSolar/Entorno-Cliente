@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Manuel Solar Bueno">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 5.2</title>
+    <script src="js/script.js"></script>
+    <script src="js/validar.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <noscript>
+        Esta página requiere el uso de JavaScript para que funcione
+    </noscript>
+
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <form method="POST">
+            
+                <p>
+                    <label>
+                        Nombre
+                        <input type="text" id="nombre" expresion="nombre" placeholder="Nombre">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Edad
+                        <input type="text" id="edad" expresion="edad" placeholder="Edad">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    Sexo:
+                    <label><input type="radio" id="sexo1" name="sexos" value="Hombre"> Hombre</label>
+                    <label><input type="radio" id="sexo2" name="sexos" value="Mujer"> Mujer</label>
+                    <span class="span_error"></span>
+                </p>
+
+                <p>
+                    <select id="idioma">
+                            <option value="">Seleccione un idioma</option>
+                            <option value="espannol">Español</option>
+                            <option value="ingles">Inglés</option>
+                            <option value="frances">Francés</option>
+                            <option value="aleman">Alemán</option>
+                            <option value="italiano">Italiano</option>
+                            <option value="portugues">Portugués</option>
+                    </select>
+                    <span class="span_error"></span>
+                </p>
+
+                <p>
+                    <label>
+                        DNI     
+                        <input type="text" id="DNI" expresion="dni" placeholder="DNI">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>     
+                        Email
+                        <input type="text" id="email" expresion="email" placeholder="Correo electrónico">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Fecha
+                        <input type="text" id="fechaNacimiento" expresion="fecha" placeholder="Fecha de Nacimiento">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Telefono
+                        <input type="text" id="telefono" expresion="telefono" placeholder="Teléfono">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Cuenta Corriente
+                        <input type="text" id="cuentaCorriente" expresion="cuentaCorriente" placeholder="Cuenta corriente">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Dirección Web
+                        <input type="text" id="direccionWeb" expresion="direccionWeb" placeholder="Dirección web">
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" id="terminos"> Acepto los términos y condiciones
+                        <span class="span_error"></span>
+                    </label>
+                </p>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" id="limpiar" value="Limpiar">
+                <button id="rellenar">Rellenar campos</button>
+            
+        </form>
+    </main>
+
+</body>
+
+</html>

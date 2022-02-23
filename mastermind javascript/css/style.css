@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 1em;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+body>div {
+    padding: 18px;
+    margin-top: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: cornsilk;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    margin: 0.5em;
+}
+
+#listaBolas {
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+#divGanar {
+    display: none;
+    color: black;
+    text-align: center;
+}
+
+#divGanar button{
+    margin: 0.5em;
+    border-radius: 50px;
+}
+
+#sectionIntentos {
+    padding: 1em;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionIntentos p {
+    text-align: center;
+}
+
+#comprobar {
+    
+    height: 50px;
+    bottom: 0px;
+    left: 5px;
+    
+}
+
+#comprobar span {
+    padding: 10px 10px 10px;
+    display: inline-block;
+}
+
+#limpiar {
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#tablero {
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bolas {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#white {
+    background-color: white;
+    margin-top: 10px;
+}
+
+#black {
+    background-color: black;
+    margin-top: 10px;
+}
+
+#red {
+    background-color: red;
+    margin-top: 10px;
+}
+
+#brown {
+    background-color: brown;
+    margin-top: 10px;
+}
+
+#yellow {
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+#green {
+    background-color: green;
+    margin-top: 10px;
+}
+
+#orange {
+    background-color: orange;
+    margin-top: 10px;
+}
+
+#blue {
+    background-color: blue;
+    margin-top: 10px;
+}
+
+.casilla {
+    display: inline-block;
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    margin: 25px;
+    border: 1px solid ;
+}
+
+.casillaPista {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 25px;
+    border: 1px solid ;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span {
+    color: black;
+}
+
+#botones {
+    text-align: center;
+    position: fixed;
+    left: 50px;
+    bottom: 0;
+    width: 10%;
+}
+
+#botones button {
+    border-radius: 50px;
+    height: 50px;
+}
+
+#botones span {
+    padding: 10px 10px 10px;
+    display: inline-block;
+}
