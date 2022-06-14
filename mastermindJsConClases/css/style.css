@@ -1,0 +1,135 @@
+#contenedor{
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    height: 80%;
+    border: 10px solid;
+    border-color: #fff0d2;
+    background-color: #ffda9169;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#colorines{
+    display: flex;
+    /* background-color: blueviolet; */
+    /* border: 3px solid black; */
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+#resultados{
+    display: flex;
+    overflow-y: scroll;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.colores{
+    width: 70px;
+    border-radius: 70px;
+    height: 70px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.hueco{
+    width: 70px;
+    border-radius: 70px;
+    /* background-color: grey; */
+    height: 70px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.comprobar, .antiguo-comprobar{
+    width: 40px;
+    border-radius: 40px;
+    /* background-color: grey; */
+    height: 40px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.fila{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.antiguo-hueco{
+    width: 70px;
+    border-radius: 70px;
+    background-color: grey;
+    height: 70px;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+#ganar-oculto{
+    display: none;
+}
+
+button{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 3%;
+    /* flex: 1 0 50%; */
+}
+
+#divbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+#ganar{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.blue{
+    background-color: blue;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.black{
+    background-color: black;    
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
