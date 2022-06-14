@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Solar Bueno">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/mastermind.js"></script>
+    <script src="js/game.js"></script>
+    <title>mastermind</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="resultados">
+            <div id="divbutton">
+                <button>Comprobar</button>
+                
+            </div>
+            
+            <div class="fila">
+                <div class="hueco" data-libre="true"></div>
+                <div class="hueco" data-libre="true"></div>
+                <div class="hueco" data-libre="true"></div>
+                <div class="hueco" data-libre="true"></div>
+                <div class="comprobar"></div>
+                <div class="comprobar"></div>
+                <div class="comprobar"></div>
+                <div class="comprobar"></div>
+            </div>
+        </div>
+        <div id="colorines">
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+            <div class="colores"></div>
+        </div>
+        <div id="ganar-oculto">
+            <h3>¡Has Ganado!</h3>
+            <div id="reiniciar">Reiniciar</div>
+        </div>
+    </div>
+</body>
+
+</html>
